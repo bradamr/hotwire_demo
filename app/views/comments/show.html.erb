@@ -1,0 +1,4 @@
+<turbo-frame id="comment_<%= @comment.id %>">
+  <%= render partial: 'comments/comment', locals: { comment: @comment } %>
+  <%= turbo_stream_from(@comment) %>
+</turbo-frame>

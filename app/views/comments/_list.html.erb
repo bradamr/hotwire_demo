@@ -1,0 +1,21 @@
+<div class="comments">
+  <h1>Kitten comments</h1>
+
+  <% unless comments.any? %>
+    Kitten is sad! Cheer him up with a <%= link_to 'new comment', new_comment_path %>!
+  <% else %>
+    <div class="please_add_comment">
+      Remember, Kitten loves positive reinforcement, add a <%= link_to 'new comment', new_comment_path %> to brighten up
+      his day! He also likes treats, but don't send him those &hyphen; he's watching his weight.
+    </div>
+  <% end %>
+
+  <% if comments.any? %>
+    <div class="list" id="comments">
+      <% comments.each do |c| %>
+        <!-- Change area -->
+        <%= render partial: 'comments/comment', locals: { comment: c } %>
+      <% end %>
+    </div>
+  <% end %>
+</div>

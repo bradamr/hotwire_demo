@@ -1,0 +1,7 @@
+<div class="like">
+  Likes: <%= comment.likes.count %>
+  <%= form_with model: comment.likes.build, url: '/likes', method: :post do |f| %>
+    <%= f.hidden_field :comment_id, value: comment.id %>
+    <%= f.submit 'Like this comment!' %>
+  <% end %>
+</div>

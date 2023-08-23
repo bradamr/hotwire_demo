@@ -1,0 +1,49 @@
+
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+C
+app/models/quote.rb,9/9/99d8d5c2af908091b79be2b00cf10003baf9eca4
+Z
+*db/migrate/20230819221240_create_quotes.rb,e/b/eb09632615a05bd93406217031ec58ca9738ac68
+T
+$app/controllers/quotes_controller.rb,7/e/7e6ce33d17f300259e18e5fc894b5e30edef6d9f
+O
+app/views/quotes/index.html.erb,e/7/e77b37c5f28ef3b374c7b8caf18f83881adb3dc5
+P
+ app/views/quotes/_quote.html.erb,3/e/3e8c9822412465c100b83c5bee3f4ffb104cf267
+M
+app/views/quotes/new.html.erb,c/6/c611d62d036f6307626e37abad37a84669a04f20
+N
+app/views/quotes/edit.html.erb,e/3/e3abd2006e334600c909af558e44858d6b1c88d7
+O
+app/views/quotes/_form.html.erb,e/6/e657d0b36eef17cef0584f5cd9ea6491ae8f066a
+R
+"config/initializers/simple_form.rb,8/3/83ac6839f71b8adaa1f4ebe4ebc68d3965e40305
+Q
+!config/locales/simple_form.en.yml,d/5/d5875f7596fa3ae3513b4cb6bb3ac3c8e835dbd7
+N
+app/views/quotes/show.html.erb,7/b/7bb4983e4337a4b9f01a7f13ff97a814264cdfb6
+R
+"config/environments/development.rb,e/5/e54c3d8d363f5b004526c7fcab8f8eb31da5a209
+V
+&app/assets/stylesheets/application.css,5/6/565e1651e502b72ad76ed27e8f0a562fea115987
+^
+.app/views/layouts/shared/_side_images.html.erb,1/4/14c166b20803856710bc01f1d6cfe0f5efe808e9
+E
+config/application.rb,7/f/7ff7049c1c8745b54f0a9ef78996f60b38f36268
+W
+'app/views/layouts/shared/_menu.html.erb,b/5/b500bbc09870dd1ad7fc8b889c860b54b3131dc0
+V
+&app/views/layouts/application.html.erb,e/8/e82294e631b91cb53fe2e362dfd3b8e4a3924ae2
+7
+Gemfile,d/e/de3150c01c3a946a6168173c4116741379fe3579
+Y
+)app/controllers/application_controller.rb,7/d/7dc0dd94f601e507e2a20bad6adcf12a51caa380
+Q
+!app/helpers/application_helper.rb,0/4/040453e670f9bf522378f941c96f3881076fee1f
+B
+app/models/like.rb,d/0/d03a6b306e5c9b08754d0fdde8fd93d5c44bb92c
+Y
+)db/migrate/20230820222222_create_likes.rb,e/6/e641e6efffdd60e58a73cafbd1d1c78be8c63163
+P
+ app/views/comments/show.html.erb,c/1/c1e52e83f9884abf0ff19fc0a66010b32c85d8e0

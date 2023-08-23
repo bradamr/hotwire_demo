@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HotwireDemo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="menu">
+        <%= render partial: 'layouts/shared/menu' %>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="body">
+        <%= yield %>
+      </div>
+      <div class="side">
+        <%= render partial: 'layouts/shared/side_images' %>
+      </div>
+    </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<%
+  images = %w(kitten_looking_up.jpeg
+               kitten_traveler.jpeg
+               kitten_tshirt_no_like.jpeg
+               kitten_wants_sandwich.jpeg)
+%>
+
+<% images.shuffle.each do |img| %>
+  <%= image_tag img %>
+<% end %>

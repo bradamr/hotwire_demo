@@ -1,0 +1,19 @@
+<%= form_with model: @comment do |f| %>
+  <div class="errors">
+    <%= flash[:error] %>
+  </div>
+
+  <div class="form_field">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="form_field">
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+  </div>
+
+  <div class="form_submit">
+    <%= f.submit %>
+  </div>
+<% end %>

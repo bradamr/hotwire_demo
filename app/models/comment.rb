@@ -6,5 +6,5 @@ class Comment < ApplicationRecord
 
   has_many :likes, dependent: :destroy
 
-  #after_create_commit -> { broadcast_prepend_to "comments", partial: "comments/comment", locals: { comment: self }, target: "comments" }
+  after_create_commit -> { broadcast_prepend_to "comments", partial: "comments/comment", locals: { comment: self }, target: "comments" }
 end

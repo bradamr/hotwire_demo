@@ -1,4 +1,4 @@
-<% turbo_stream_from "comments" %>
+<%= turbo_stream_from "comments" %>
 
 <h1>Kitten's Fan Page</h1>
 
@@ -12,3 +12,4 @@
 
 
 <!-- Change area -->
+<%= render partial: 'comments/list', locals: { comments: @comments } %>

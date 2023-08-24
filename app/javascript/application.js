@@ -2,4 +2,5 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 
-Turbo.session.drive = true
+// Enable by making true
+Turbo.session.drive = false

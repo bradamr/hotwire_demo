@@ -6,6 +6,6 @@
     <%= comment.body %>
   </div>
 
-  <!-- Change area -->
-  <%= render partial: 'likes/like', locals: { comment: comment } %>
+  <!-- Change area -- enable by making it output with an `=` -->
+  <% render partial: 'likes/like', locals: { comment: comment } %>
 </div>

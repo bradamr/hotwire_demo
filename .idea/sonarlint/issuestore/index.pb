@@ -49,8 +49,6 @@ P
  app/views/comments/show.html.erb,c/1/c1e52e83f9884abf0ff19fc0a66010b32c85d8e0
 @
 config/routes.rb,e/8/e801163eb9182955dca3eb9817d59af634f6665d
-O
-app/views/comments/new.html.erb,e/1/e11b6e1d4e10b7d4f2d05bd4c6c54dbbd4b3d551
 P
  app/assets/stylesheets/main.scss,9/1/91da2bb8f68a00bbe4c1f94b4d1d426a23110dbf
 Q
@@ -59,19 +57,3 @@ S
 #app/controllers/homes_controller.rb,7/9/7950330cbdbc595a63affefa45e830a8ba515558
 S
 #app/controllers/likes_controller.rb,c/6/c6d1185a1721c3e8a8de6e0b4d1d61d0e6afb5b5
-V
-&app/controllers/comments_controller.rb,a/3/a3776876bd0ee05804bd64ac2f5eee1bd3647b2f
-M
-app/javascript/application.js,1/5/152e2c420fe74ffc17152624ffc17eed9bcc66a5
-T
-$app/views/comments/_comment.html.erb,5/5/550395d32d06ac362d6d7d8b5e20e2da8f3b3249
-N
-app/views/likes/_like.html.erb,c/f/cf587db8fa5c9ba7d19d41b4e8e4731425fb5e86
-@
-config/cable.yml,4/4/44bb44c06ebf3546d3fa0b6c4fc0a4d3bd160834
-E
-app/models/comment.rb,0/5/056e56384f5153a763670265fa1c30f718f50145
-Q
-!app/views/comments/_list.html.erb,3/e/3ec5bee6aefbaa862dd2f1f285381b83f1d297c1
-N
-app/views/homes/index.html.erb,5/b/5b5a596eb1dc89cbaf4af6d22e2307101bf6b265

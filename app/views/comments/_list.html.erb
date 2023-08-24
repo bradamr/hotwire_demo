@@ -14,9 +14,7 @@
     <div class="list" id="comments">
       <% comments.each do |c| %>
         <!-- Change area -->
-        <turbo-frame id="comment_<%= c.id %>" src="/comments/<%= c.id %>" loading="lazy">
-          This comment is loading!
-        </turbo-frame>
+        <%= render partial: 'comments/comment', locals: { comment: c } %>
       <% end %>
     </div>
   <% end %>
